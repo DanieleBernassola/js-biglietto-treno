@@ -7,6 +7,7 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio,
 il prezzo del biglietto è definito in base ai km (0.21 € al km)
 
  - trasformo kilometers in numero da una stringa
+ - verifico se kilometers e age sono numeri
  - definisco una variabile prezzoPieno e salvo la moltiplicazione kilometers * 0.21
 
 va applicato uno sconto del 20% per i minorenni
