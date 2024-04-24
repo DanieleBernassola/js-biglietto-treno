@@ -27,4 +27,4 @@ va applicato uno sconto del 40% per gli over 65.
 
 L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
 
- - utilizzo ... per arrotondare output a massimo due decimali
+ - utilizzo .toFixed(2) per arrotondare output a massimo due decimali

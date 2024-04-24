@@ -1,10 +1,8 @@
 'use strict';
-
 // Il programma dovrà chiedere all'utente il numero di chilometri che vuole percorrere e l'età del passeggero.
 
 const kilometers = Number(prompt('Inserisci i chilometri che vuoi percorrere'));
 console.log(kilometers);
-
 const age = Number(prompt('Inserisci la tua età'));
 console.log(age);
 
@@ -29,8 +27,7 @@ if(!isNaN(kilometers) && !isNaN(age)) {
     console.log('uno dei dati inseriti non è un numero')
 }
 
+prezzoScontato = prezzoScontato.toFixed(2);
+
 console.log('Questo è il prezzo finale:', prezzoScontato);
-
 // L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
-
-//  - utilizzo ... per arrotondare output a massimo due decimali
